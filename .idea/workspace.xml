@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0213e367-4896-42a5-aad7-4ca18e919d68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatbot/resources/Duoc_callout.json" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot/resources/Duoc_callout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatbot/resources/Duoc_callout.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="-150">
+              <caret line="472" column="22" lean-forward="true" selection-start-line="472" selection-start-column="22" selection-end-line="472" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,8 +52,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>choose</find>
       <find>r</find>
+      <find>choose</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,12 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563034694314</updated>
       <workItem from="1563034695524" duration="4762000" />
-      <workItem from="1563040718599" duration="1344000" />
+      <workItem from="1563040718599" duration="2868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6106000" />
+    <option name="totallyTimeSpent" value="7630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatbot/resources/Duoc_callout.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="-150">
+          <caret line="472" column="22" lean-forward="true" selection-start-line="472" selection-start-column="22" selection-end-line="472" selection-end-column="22" />
         </state>
       </provider>
     </entry>

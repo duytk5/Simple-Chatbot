@@ -116,6 +116,21 @@
                         },
                         {
                             "text":".*?nhầm nhé.*?"
+                        },
+                        {
+                            "text":".*?sai số.*?"
+                        },
+                        {
+                            "text":".*?sai rồi.*?"
+                        },
+                        {
+                            "text":".*?gọi nhầm.*?"
+                        },
+                        {
+                            "text":".*?gọi sai.*?"
+                        },
+                        {
+                            "text":".*?gọi nhầm.*?"
                         }
                     ],
                     "content":"không phải",
@@ -124,7 +139,7 @@
                 {
                     "regex":[
                         {
-                            "text":".*?(bận|đi đường|ngủ|họp|đi chợ|lái xe).*?"
+                            "text":".*?(bận|đi đường|ngủ|họp|đi chợ|lái xe|không nghe|làm việc|ra ngoài).*?"
                         },
                         {
                             "text":".*?đang đi.*?"
@@ -136,10 +151,7 @@
                 {
                     "regex":[
                         {
-                            "text":".*?không có đây.*?"
-                        },
-                        {
-                            "text":".*?không có ở đây đây.*?"
+                            "text":".*?không có.{1,5}đây.*?"
                         },
                         {
                             "text":".*?không nghe máy.*?"
@@ -149,6 +161,9 @@
                         },
                         {
                             "text":".*?là (bạn|mẹ|vợ|chồng|con|bác|chú|cô|dì).*?"
+                        },
+                        {
+                            "text": ".*?đang cầm máy của.*?"
                         }
                     ],
                     "content":"người khác cầm",
@@ -157,10 +172,7 @@
                 {
                     "regex":[
                         {
-                            "text":".*?đúng.*?"
-                        },
-                        {
-                            "text":".*?đúng rồi.*?"
+                            "text":".*?(đúng|phải).*?"
                         },
                         {
                             "text":".*?chính xác.*?"
@@ -172,7 +184,7 @@
                             "text":".*?chính.{1,5}anh.*?"
                         },
                         {
-                            "text":".*?ừ.{1,5}em.*?"
+                            "text":".*?(ừ|ờm|ừm|ừa)*?"
                         }
                     ],
                     "content":"đúng",
@@ -275,6 +287,9 @@
                         },
                         {
                             "text":".*?không ổn.*?"
+                        },
+                        {
+                            "text":".*?không tốt.*?"
                         }
                     ],
                     "content":"không hài lòng",
@@ -286,7 +301,7 @@
                             "text":".*?hài lòng.*?"
                         },
                         {
-                            "text":".*?rất tốt.*?"
+                            "text":".*?rất (tốt|ổn|được|hiệu quả|ok).*?"
                         },
                         {
                             "text":".*?rất ổn.*?"
@@ -299,6 +314,15 @@
                         },
                         {
                             "text": "có chứ"
+                        },
+                        {
+                            "text":".*?không vấn đề.*?"
+                        },
+                        {
+                            "text":".*?miễn.*?"
+                        },
+                        {
+                            "text":".*?không vấn đề.*?"
                         }
                     ],
                     "content":"hài lòng",
@@ -439,6 +463,12 @@
                         },
                         {
                             "text":".{1,6}không.{1,6}"
+                        },
+                        {
+                            "text":".{1,6}thôi.{1,6}"
+                        },
+                        {
+                            "text":".{1,6}khỏi.{1,6}"
                         }
                     ],
                     "content":"không",
@@ -454,6 +484,9 @@
                         },
                         {
                             "text": ".*?oke.*?"
+                        },
+                        {
+                            "text": ".*?nhắc lại.*?"
                         }
                     ],
                     "content":"có",
