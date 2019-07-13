@@ -155,6 +155,15 @@
                         },
                         {
                             "text":".*?chính xác.*?"
+                        },
+                        {
+                            "text":".*?anh.{1,7}đây.*?"
+                        },
+                        {
+                            "text":".*?chính.{1,5}anh.*?"
+                        },
+                        {
+                            "text":".*?ừ.{1,5}em.*?"
                         }
                     ],
                     "content":"đúng",
@@ -194,7 +203,7 @@
                     "text":"Dạ, vậy quý khách rảnh vào lúc để em gọi lại ạ"
                 },
                 {
-                    "text":"Dạ, em có thể gọi lại lúc nào được ạ"
+                    "text":"Dạ, em có thể gọi lại lúc nào được"
                 }
             ],
             "next_id":7
@@ -250,7 +259,7 @@
                 {
                     "regex":[
                         {
-                            "text":".*?có vấn đề.*?"
+                            "text":".*?có.{1,10}vấn đề.*?"
                         },
                         {
                             "text":".*?không hài lòng.*?"
@@ -321,7 +330,7 @@
             "content":"Hẹn giờ",
             "speak":[
                 {
-                    "text":"Dạ, vấn đề trên em đã ghi nhận lại, em sẽ chuyển đến chuyên gia để gọi điện tư vấn trực tiếp cho anh. Không biết có thể gọi lại cho anh vào lúc nào thì thuận tiện ạ"
+                    "text":"Dạ, vấn đề trên em đã ghi nhận lại, em sẽ chuyển đến chuyên gia để gọi điện tư vấn trực tiếp cho anh. Không biết có thể gọi lại cho anh vào lúc nào thì thuận tiện được anh"
                 }
             ],
             "next_id":7
