@@ -1,7 +1,7 @@
 {
     "id":0,
     "function":"Tổng đài tư vấn công ty dược phẩm",
-    "name":"Dược-001",
+    "name":"Trâm Anh",
     "attribute":[
         {
             "name":"COMPANY",
@@ -13,7 +13,7 @@
         },
         {
             "name":"UNAME",
-            "value":"Nguyễn Văn Nam"
+            "value":"Nguyễn Việt Nam"
         },
         {
             "name":"UNAME_SORT",
@@ -68,7 +68,7 @@
                     "text":".*?"
                 }
             ],
-            "content":"1800.1306",
+            "content":"18001306",
             "next_id":1
         },
         {
@@ -77,13 +77,13 @@
             "content":"cung cấp thông tin",
             "speak":[
                 {
-                    "text":"Dạ, em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY>. Cho em hỏi có phải anh <UNAME> nghe máy đúng không ạ "
+                    "text":"Dạ, em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY>. Cho em hỏi có phải anh <UNAME> nghe máy đúng không anh "
                 },
                 {
                     "text":"Dạ, Em là tư vấn viên <BOT_NAME> của <COMPANY>. Cho em hỏi có phải anh <UNAME> không ạ "
                 },
                 {
-                    "text":"Em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY>. Cho em hỏi có phải anh <UNAME> nghe máy không ạ "
+                    "text":"Em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY>. Cho em hỏi có phải anh <UNAME> nghe máy không anh "
                 },
                 {
                     "text":"Em là tư vấn viên <BOT_NAME> của <COMPANY> ạ. Có phải anh <UNAME> nghe máy không ạ "
@@ -106,16 +106,16 @@
                             "text":".*?không phải.*?"
                         },
                         {
-                            "text":".*?nhầm máy.*?"
+                            "text":".*?(nhầm|lầm|lộn) máy.*?"
                         },
                         {
                             "text":".*?không.{1,5}ơi.*?"
                         },
                         {
-                            "text":".*?nhầm rồi.*?"
+                            "text":".*?(nhầm|lầm|lộn) rồi.*?"
                         },
                         {
-                            "text":".*?nhầm nhé.*?"
+                            "text":".*?(nhầm|lầm|lộn) nhé.*?"
                         },
                         {
                             "text":".*?sai số.*?"
@@ -124,13 +124,10 @@
                             "text":".*?sai rồi.*?"
                         },
                         {
-                            "text":".*?gọi nhầm.*?"
+                            "text":".*?gọi (nhầm|lầm|lộn).*?"
                         },
                         {
                             "text":".*?gọi sai.*?"
-                        },
-                        {
-                            "text":".*?gọi nhầm.*?"
                         }
                     ],
                     "content":"không phải",
@@ -172,16 +169,13 @@
                 {
                     "regex":[
                         {
-                            "text":".*?(đúng|phải).*?"
+                            "text":".*?(đúng|phải|chuẩn|chính xác).*?"
                         },
                         {
-                            "text":".*?chính xác.*?"
+                            "text":".*?anh.{1,7}(đây|này|nè).*?"
                         },
                         {
-                            "text":".*?anh.{1,7}đây.*?"
-                        },
-                        {
-                            "text":".*?chính.{1,5}anh.*?"
+                            "text":".*?(chính|là).{1,5}anh.*?"
                         },
                         {
                             "text":".*?(ừ|ờm|ừm|ừa)*?"
@@ -204,13 +198,13 @@
         {
             "id":3,
             "type":"speak",
-            "content":"Nhầm máy",
+            "content":"(nhầm|lầm|lộn) máy",
             "speak":[
                 {
-                    "text":"Em xin lỗi, em nhầm số. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần ạ. Chúc quý khách 1 ngày tốt lành"
+                    "text":"Em xin lỗi, em (nhầm|lầm|lộn) số. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
                 },
                 {
-                    "text":"Nhầm số ạ, em xin lỗi. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần ạ. Chúc quý khách 1 ngày tốt lành"
+                    "text":"(nhầm|lầm|lộn) số ạ, em xin lỗi. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
                 }
             ],
             "next_id":-1
@@ -224,7 +218,7 @@
                     "text":"Dạ, vậy quý khách rảnh vào lúc để em gọi lại ạ"
                 },
                 {
-                    "text":"Dạ, em có thể gọi lại lúc nào được"
+                    "text":"Dạ, em có thể gọi lại lúc nào được anh"
                 }
             ],
             "next_id":7
@@ -235,7 +229,7 @@
             "content":"Không có đây",
             "speak":[
                 {
-                    "text":"​Dạ vâng, vậy cho em hỏi lúc nào anh <UNAME_SORT> có thể nghe máy được ạ"
+                    "text":"​Dạ vâng, cho em hỏi lúc nào anh <UNAME_SORT> có thể nghe máy được thế ạ"
                 }
             ],
             "next_id":7
@@ -246,7 +240,7 @@
             "content":"Chính xác",
             "speak":[
                 {
-                    "text":"​Dạ vâng, vào <BUY_TIME> anh có mua và sử dụng thực phẩm chức năng <ITEM> bên em, anh có cảm thấy hài lòng với sản phẩm không ạ"
+                    "text":"​Dạ vâng, vào <BUY_TIME> anh có mua và sử dụng thực phẩm chức năng <ITEM> bên em, anh có cảm thấy hài lòng với sản phẩm không anh"
                 }
             ],
             "next_id":9
@@ -280,16 +274,10 @@
                 {
                     "regex":[
                         {
-                            "text":".*?có.{1,10}vấn đề.*?"
+                            "text":".*?(có|gặp|bị|vướng|dính).{1,10}(vấn đề|triệu chứng|sai|khác|lạ).*?"
                         },
                         {
-                            "text":".*?không hài lòng.*?"
-                        },
-                        {
-                            "text":".*?không ổn.*?"
-                        },
-                        {
-                            "text":".*?không tốt.*?"
+                            "text":".*?không (hài lòng|ổn|tốt|đúng).*?"
                         }
                     ],
                     "content":"không hài lòng",
@@ -323,6 +311,9 @@
                         },
                         {
                             "text":".*?không vấn đề.*?"
+                        },
+                        {
+                            "text":".*?ok.*?"
                         }
                     ],
                     "content":"hài lòng",

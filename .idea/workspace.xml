@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatbot/resources/Duoc_callout.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="472" column="22" lean-forward="true" selection-start-line="472" selection-start-column="22" selection-end-line="472" selection-end-column="22" />
+            <state relative-caret-position="177">
+              <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,11 @@
     <findStrings>
       <find>r</find>
       <find>choose</find>
+      <find>nhầm</find>
     </findStrings>
+    <replaceStrings>
+      <replace>(nhầm|lầm|lộn)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563034694314</updated>
       <workItem from="1563034695524" duration="4762000" />
-      <workItem from="1563040718599" duration="2868000" />
+      <workItem from="1563040718599" duration="4351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7630000" />
+    <option name="totallyTimeSpent" value="9113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,8 +223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatbot/resources/Duoc_callout.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="472" column="22" lean-forward="true" selection-start-line="472" selection-start-column="22" selection-end-line="472" selection-end-column="22" />
+        <state relative-caret-position="177">
+          <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
         </state>
       </provider>
     </entry>
