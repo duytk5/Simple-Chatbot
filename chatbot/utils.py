@@ -182,7 +182,7 @@ def get_time_speak(wit_respond):
                     responds.append("{}:{} nữa".format(duration_second // 3600, duration_second % 3600 // 60))
         return random.choice(responds)
     except:
-        traceback.print_exc()
+        # traceback.print_exc()
         return None
 
 ######################################################### QA #########################################################

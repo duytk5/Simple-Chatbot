@@ -107,6 +107,15 @@
                         },
                         {
                             "text":".*?nhầm máy.*?"
+                        },
+                        {
+                            "text":".*?không.{1,5}ơi.*?"
+                        },
+                        {
+                            "text":".*?nhầm rồi.*?"
+                        },
+                        {
+                            "text":".*?nhầm nhé.*?"
                         }
                     ],
                     "content":"không phải",
@@ -175,7 +184,7 @@
                             "text":".*?"
                         }
                     ],
-                    "content":"đúng",
+                    "content":"nhắc lại",
                     "next_id":1
                 }
             ]
@@ -406,7 +415,10 @@
             "content":"có Hướng dẫn ?",
             "speak":[
                 {
-                    "text":"Dạ vâng, vậy anh có cần em nhắc lại liệu trình sử dụng thuốc không ạ"
+                    "text":"Anh có cần em nhắc lại liệu trình sử dụng thuốc không ạ"
+                },
+                {
+                    "text":"Vậy anh có cần em nhắc lại liệu trình sử dụng thuốc không ạ"
                 }
             ],
             "next_id":18
