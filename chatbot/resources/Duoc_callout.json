@@ -525,7 +525,9 @@
                         {
                             "text":".*?(sai|không phải|giờ khác|muộn hơn|sớm hơn).*?"
                         }
-                    ]
+                    ],
+                    "content":"có",
+                    "next_id":14
                 },
                 {
                     "regex":[
