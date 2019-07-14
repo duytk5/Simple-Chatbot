@@ -393,16 +393,16 @@
             "content":"Nhắc lại lịch hẹn",
             "speak":[
                 {
-                    "text":"Anh nhắc lại giờ hẹn giúp em ạ, em chưa rõ"
+                    "text":"Anh nhắc lại giờ hẹn giúp em với, em chưa rõ"
                 },
                 {
-                    "text":"Anh nhắc lại giờ hẹn chính xác anh ạ"
+                    "text":"Anh nhắc lại giờ hẹn chính xác anh ơi"
                 },
                 {
                     "text":"Giờ hẹn cụ thể chút anh ạ"
                 },
                 {
-                    "text":"Giờ hẹn cụ thể chút để em ghi lại ạ"
+                    "text":"Giờ hẹn cụ thể chút để em ghi lại nhé anh"
                 }
             ],
             "next_id":7
@@ -413,10 +413,10 @@
             "content":"không hài lòng gì ?",
             "speak":[
                 {
-                    "text":"Dạ vâng, anh không hài lòng về điều gì ạ"
+                    "text":"Dạ vâng, anh không hài lòng về điều gì vậy ạ"
                 },
                 {
-                    "text":"Dạ, anh cho em ghi lại lý do để em phản hồi giúp anh ạ"
+                    "text":"Dạ, anh cho em ghi lại lý do để em phản hồi giúp anh"
                 }
             ],
             "next_id":16
@@ -497,7 +497,7 @@
             "content":"Hướng dẫn",
             "speak":[
                 {
-                    "text":"<HUONGDAN> . Em tư vấn đến đây thôi ạ. Lúc nào có nhu cầu cần được tư vấn anh vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần ạ. Chúc quý khách 1 ngày tốt lành"
+                    "text":"<HUONGDAN> . Em tư vấn đến đây thôi. Lúc nào có nhu cầu cần được tư vấn anh vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần ạ. Chúc quý khách 1 ngày tốt lành"
                 }
             ],
             "next_id":-1
@@ -523,7 +523,7 @@
 
                     "regex":[
                         {
-                            "text":".*?(sai|không phải|giờ khác|muộn hơn|sớm hơn).*?"
+                            "text":".*?(không|sai|không phải|giờ khác|muộn hơn|sớm hơn).*?"
                         }
                     ],
                     "content":"có",
