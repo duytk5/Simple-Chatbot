@@ -5,7 +5,7 @@
     "attribute":[
         {
             "name":"COMPANY",
-            "value":"Công ty Dược phẩm Lê Bảo"
+            "value":"Công ty Dược phẩm Voice Bot"
         },
         {
             "name":"BUY_TIME",
@@ -13,7 +13,7 @@
         },
         {
             "name":"UNAME",
-            "value":"Nguyễn Việt Nam"
+            "value":"Lê Văn Bảo"
         },
         {
             "name":"UNAME_SORT",
@@ -255,15 +255,21 @@
             "next_id":8
         },
         {
-            "id":8,
+            "id":7,
             "type":"speak",
             "content":"Nhắc hẹn, tạm biệt",
             "speak":[
                 {
-                    "text":"Dạ vâng, đến <BOOKING_TIME> em sẽ gọi lại cho anh, anh nhớ chú ý nghe điện thoại nhé. Chúc anh 1 ngày tốt lành"
+                    "text":"Em đã ghi nhận thông tin, đến <BOOKING_TIME> em sẽ gọi lại quý khách nhớ chú ý nghe điện thoại nhé"
+                },
+                {
+                    "text":"Em đã ghi nhận thời gian gọi vào <BOOKING_TIME> , quý khách nhớ nghe điện thoại nhé"
+                },
+                {
+                    "text":"Em đã ghi nhận thời gian gọi vào <BOOKING_TIME> , quý khách xác nhận lại giúp em đúng chưa ạ"
                 }
             ],
-            "next_id":-1
+            "next_id":21
         },
         {
             "id":9,
@@ -495,6 +501,57 @@
                 }
             ],
             "next_id":-1
+        },
+        {
+            "id":20,
+            "type":"speak",
+            "content":"tạm biệt",
+            "speak":[
+                {
+                    "text":"Dạ vâng. Chào tạm biệt quý khách, chúc quý khách một ngày tốt lành"
+                }
+            ],
+            "next_id":-1
+        },
+        {
+            "id":21,
+            "type":"choose",
+            "content":"xác nhận",
+            "att_name":"",
+            "list_choose":[
+                {
+
+                    "regex":[
+                        {
+                            "text":".*?(sai|không phải|giờ khác|muộn hơn|sớm hơn).*?"
+                        }
+                    ]
+                },
+                {
+                    "regex":[
+                        {
+                            "text":".*?(đúng|phải|chuẩn|chính xác).*?"
+                        },
+                        {
+                            "text":".*?(ừ|ờm|ừm|ừa|được|ok|giờ đó|được)*?"
+                        },
+                        {
+                            "text":"rồi*?"
+                        }
+                    ],
+                    "content":"có",
+                    "next_id":20
+                },
+                {
+                    "regex":[
+                        {
+                            "text":".*?"
+                        }
+                    ],
+                    "content":"hỏi lại",
+                    "next_id":14
+                }
+            ]
         }
     ]
 }
