@@ -77,7 +77,7 @@
             "content":"cung cấp thông tin",
             "speak":[
                 {
-                    "text":"Dạ, em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY> . Cho em hỏi có phải anh <UNAME> nghe máy đúng không anh "
+                    "text":"Dạ, em chào anh, em là tư vấn viên <BOT_NAME> của <COMPANY> . Cho em hỏi có phải anh <UNAME> nghe máy đúng không ạ "
                 },
                 {
                     "text":"Dạ, Em là tư vấn viên <BOT_NAME> của <COMPANY> . Cho em hỏi có phải anh <UNAME> không ạ "
@@ -363,7 +363,7 @@
             "content":"Hẹn giờ",
             "speak":[
                 {
-                    "text":"Dạ, vấn đề trên em đã ghi nhận lại, em sẽ chuyển đến chuyên gia để gọi điện tư vấn trực tiếp cho anh. Không biết có thể gọi lại cho anh vào lúc nào thì thuận tiện được anh"
+                    "text":"Dạ, vấn đề trên em đã ghi nhận lại, em sẽ chuyển đến chuyên gia để gọi điện tư vấn trực tiếp cho anh. Không biết có thể gọi lại cho anh vào lúc nào thì thuận tiện được ạ"
                 }
             ],
             "next_id":7
@@ -405,7 +405,7 @@
                     "text":"Giờ hẹn cụ thể chút anh ạ"
                 },
                 {
-                    "text":"Giờ hẹn cụ thể chút để em ghi lại nhé anh"
+                    "text":"Giờ hẹn cụ thể chút để em ghi lại ạ"
                 }
             ],
             "next_id":7
@@ -419,7 +419,7 @@
                     "text":"Dạ vâng, anh không hài lòng về điều gì vậy ạ"
                 },
                 {
-                    "text":"Dạ, anh cho em ghi lại lý do để em phản hồi giúp anh"
+                    "text":"Dạ, anh cho em ghi lại lý do để em phản hồi giúp anh ạ"
                 }
             ],
             "next_id":16
