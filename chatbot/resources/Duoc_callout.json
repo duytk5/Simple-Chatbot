@@ -201,10 +201,10 @@
             "content":"(nhầm|lầm|lộn) máy",
             "speak":[
                 {
-                    "text":"Em xin lỗi, em (nhầm|lầm|lộn) số. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
+                    "text":"Em xin lỗi, em lộn số. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
                 },
                 {
-                    "text":"(nhầm|lầm|lộn) số ạ, em xin lỗi. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
+                    "text":"Nhầm số ạ, em xin lỗi. Nếu quý khách có nhu cầu cần được tư vấn về sản phẩm của <COMPANY>, quý khách vui lòng gọi lại tổng đài <X> vào giờ hành chính, từ 8 đến 15 giờ các ngày trong tuần. Chúc quý khách 1 ngày tốt lành"
                 }
             ],
             "next_id":-1
